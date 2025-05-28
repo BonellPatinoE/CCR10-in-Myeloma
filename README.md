@@ -1,4 +1,4 @@
-CCR10 in multiple myeloma
+#**CCR10 in multiple myeloma**
 
 This repository contains two different single-cell RNA-sequencing analyses about CCR10 expression in primary samples from patients with multiple myeloma. CCR10 is a a chemokine receptor discovered at Wiita lab using cell surface capture proteomic approach as a novel therapeutic target in multiple myeloma (Nat Commun 13, 4121 2022). 
 
