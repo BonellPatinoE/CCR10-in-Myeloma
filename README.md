@@ -1,4 +1,4 @@
-#CCR10 in multiple myeloma
+##CCR10 in multiple myeloma
 
 This repository contains two different single-cell RNA-sequencing analyses about CCR10 expression in primary samples from patients with multiple myeloma. CCR10 is a a chemokine receptor discovered at Wiita lab using cell surface capture proteomic approach as a novel therapeutic target in multiple myeloma (Nat Commun 13, 4121 2022). 
 
@@ -8,5 +8,7 @@ Second analysis was conducted from a public available scRNAseq collection of scR
 ID strings against pre‐defined regular expressions.
 
 RNAseq data analysis about CCR10 expression in primary samples from coMMpass (MMRF) IA19A. This analysis was performed using DESeq2 (v1.34.0) package in R (v4.1.2) as well, using 'apeglm' for LFC shrinkage and “gprofiler” (v0.2.2) for for gene list functional enrichment analysis and namespace conversion. 
+
+The RNAseq data files were loaded and processed through DESeq2 (v1.46.0)15 in R (v2025.05.0+496), 'apeglm' for LFC shrinkage16 and “gprofiler2” (v0.2.3) for gene list functional enrichment analysis and namespace conversion. Sample‐level cytogenetic metadata, including translocations (NSD2, CCND1) and copy‐number alterations (del17p13, gain1q21, and del1p22), were extracted from the provided SeqFISH files and merged by sample identifier. Only bone‐marrow (“BM”) specimens were retained. Using clinical and survival information in CoMMpass, We fit a Cox model using survival package18 (v3.8‐3) 
 
 Bioinformatic analysis performed at Wiita Lab at the University of California, San Francisco (UCSF). 
