@@ -1,1 +1,1 @@
-
+This repository contains single-cell RNA-sequencing analyses (GSE223060 and collection https://zenodo.org/records/13646014) focused on CCR10, a chemokine receptor discovered at Wiita lab using proteomic approaches as a novel therapeutic target in multiple myeloma (Nat Commun 13, 4121 2022). RNAseq data analysis from coMMpass dataset (MMRF) IA19
